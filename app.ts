@@ -5,6 +5,7 @@ const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 
+// Shape of our expected data
 interface QuoteData {
   quoteAuthor: string;
   quoteText: string;
