@@ -1,20 +1,14 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
     "target": "es5",
-    "module": "commonJs",
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "ES2015"
     ],
-    "outDir": "dist",
-    "allowJs": true,
-    "noEmit": true,
-    "strict": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "module": "CommonJS",
+    "outDir": "dist/",
+    "strict": true
   }
 }
